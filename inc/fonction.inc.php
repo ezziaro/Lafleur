@@ -23,21 +23,18 @@ function supp($supp, $base, $hote, $utilisateur, $mdp)
 }
 
 
-
-
-
-function modif($supp, $base, $hote, $utilisateur, $mdp)
+function suppMag($supp, $base, $hote, $utilisateur, $mdp)
 {
-	if ( isset($_GET['modif']) && !empty($_GET['modif']) )
+	if ( isset($_GET['supp']) && !empty($_GET['supp']) )
 	{
-		$modif = $_GET['modif'];
+		$supp = $_GET['supp'];
 		try
 		{
 			$pdo_options[PDO::ATTR_ERRMODE] = PDO::ERRMODE_EXCEPTION;
 			$bdd = new PDO('mysql:host='.$hote.';dbname='.$base, $utilisateur, $mdp);
-			$modification = $bdd->prepare('UPDATE produits SET WHERE produit_id=:id');
+			$modification = $bdd->prepare('DELETE FROM boutiques WHERE id=:id');
 			$modification->execute(array(
-					'id' => $modif
+					'id' => $supp
 			));
 			$modification->closeCursor();
 		}
@@ -47,4 +44,45 @@ function modif($supp, $base, $hote, $utilisateur, $mdp)
 		}
 	}
 }
+
+
+
+
+
+function modif($supp, $base, $hote, $utilisateur, $mdp)
+{
+	
+	if ( isset($_GET['modifId']) && !empty($_GET['modifId']) && isset($_GET['modifNom']) && !empty($_GET['modifNom']))
+	{
+		
+		$modifId = $_GET['modifId'];
+		$modifNom = $_GET['modifNom'];
+		$modifST = $_GET['modifST'];
+		$modifPrix = $_GET['modifPrix'];
+		$modifCat = $_GET['modifCat'];
+		try
+		{
+			$pdo_options[PDO::ATTR_ERRMODE] = PDO::ERRMODE_EXCEPTION;
+			$bdd = new PDO('mysql:host='.$hote.';dbname='.$base, $utilisateur, $mdp);
+			{
+				$modification = $bdd->prepare('UPDATE produits SET nom = :nom, sous_titre = :sous_titre, prix = :prix, categorie = :categorie WHERE produit_id= "'.$modifId.'"');
+				$modification->execute(array(
+						'nom' => $modifNom,
+						'sous_titre' => $modifST,
+						'prix' => $modifPrix,
+						'categorie' => $modifCat
+				));
+				$modification->closeCursor();
+			}
+		}
+		catch (Exception $e)
+		{
+			die('Erreur : ' . $e->getMessage());
+		}
+	}
+}
+
+
+
+
 ?>

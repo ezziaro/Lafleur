@@ -4,12 +4,13 @@ body,html
 {
 	margin:0;
 	padding:0;
-	background-image:url("/Lafleur/img/fond.jpg");
+	background-image:url("../img/fond.jpg");
 	background-attachment:fixed;
 	background-repeat:no-repeat;
 	background-position:center;
 	background-size:100%;
 }
+
 div.menu
 {
 	width:100%;
@@ -27,6 +28,7 @@ a.menu
 	font-size:16pt;
 	margin:3%;
 }
+
 a:hover
 {
 	color:black;
@@ -34,17 +36,15 @@ a:hover
 
 a.admin
 {
-	
-	 background-color:#860086;
+	background-color:#860086;
 	font-family: 'Roboto', sans-serif;
 	color:white;
 	text-align:center;
 	text-decoration:none;
 	font-size:16pt;
- float:left;
- width: 170px;
+ 	float:left;
+ 	width: 170px;
 }
-
 
 div.site
 {
