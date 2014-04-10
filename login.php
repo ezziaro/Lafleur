@@ -43,7 +43,7 @@ if ($pseudo_bdd == $pseudo_c && $mdp_bdd == $mdp_c)
 				$_SESSION['statut'] = $statut_bdd;
 
 				// on redirige notre visiteur vers une page de notre section membre
-				header ('location: /Lafleur');
+				header ('location: /LafleurGitHub');
 }
 else
 {

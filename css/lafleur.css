@@ -119,6 +119,11 @@ div.basdroit
 }
 
 
+
+
+
+
+
 /*Magasins*/
 
 div.cadre_m
@@ -241,6 +246,10 @@ table
 	margin:auto;
 }
 
+
+
+
+
 /* Connexion */
 
 #apDiv0
@@ -255,37 +264,37 @@ table
 	box-shadow: 0px 0px 0px 1000px rgba(0, 0, 0, 0.5); 
 	text-align:center;
 	opacity:0;
-	}
+}
 	
 .connexion
 {
 	color:#860086;
-font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	text-align:center;
 	text-decoration:none;
-		font-weight:bold;
+	font-weight:bold;
 	font-size:12pt;
-	height:12px;
+	height:28px;
  }	
  
  
  .connexion1
 {
 	color:#860086;
-font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	text-align:center;
 	text-decoration:none;
-		font-weight:bold;
+	font-weight:bold;
 	font-size:12pt;
 	height:12px;
 	background-color:white;
 	margin-top:-5px;
- }	
+}	
  
  
 #apDiv1
 {
- float:left;
+	float:left;
 	cursor: pointer;
 	background-color:#860086;
 	font-family: 'Roboto', sans-serif;
@@ -294,9 +303,9 @@ font-family: 'Roboto', sans-serif;
 	text-decoration:none;
 	font-size:12pt;
 	margin-left:93.5%;
-		margin-top:-42px;
-	}
-	
+	margin-top:-30px;
+}
+
 .pseudo
 {
 	float:left;
@@ -309,10 +318,10 @@ font-family: 'Roboto', sans-serif;
 	font-size:16pt;
 	margin-left:92%;
 	margin-top:-50px;
-	}
+}
 	
-	.caddie
-	{
+.caddie
+{
 	float:left;
 	margin-top:-28px;
 	background-color:#860086;
@@ -322,11 +331,11 @@ font-family: 'Roboto', sans-serif;
 	text-decoration:none;
 	font-size:16pt;
 	margin-left:2%;
-	}
+}
 	
 	
-	.caddie2
-	{
+.caddie2
+{
 	float:left;
 	margin-top:-28px;
 	background-color:#860086;
@@ -336,7 +345,4 @@ font-family: 'Roboto', sans-serif;
 	text-decoration:none;
 	font-size:16pt;
 	margin-left:1%;
-	}
- 
- 
- 
+}

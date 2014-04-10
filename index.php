@@ -35,13 +35,13 @@ session_start ();
 	
 
 <div id="apDiv0"><p class="connexion"><u>Connexion</u></p>
-<form id="formConnexion" name="formConnexion"  action="login.php" method="post" >
-<p class="connexion">Utilisateur :</p>
-<input type="text" name="login">
-<p class="connexion">Mot de passe :</p> 
-<input type="password" name="pwd"><br />
-<input type="submit" value="Connexion">
-</form>
+	<form id="formConnexion" name="formConnexion"  action="login.php" method="post" >
+	<p class="connexion">Utilisateur :</p>
+	<input type="text" name="login">
+	<p class="connexion">Mot de passe :</p> 
+	<input type="password" name="pwd"><br />
+	<input type="submit" value="Connexion">
+	</form>
 </div>
 	
 	
