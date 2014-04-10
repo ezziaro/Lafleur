@@ -1,0 +1,226 @@
+@CHARSET "ISO-8859-1";
+
+body,html
+{
+	margin:0;
+	padding:0;
+	background-image:url("/Lafleur/img/fond.jpg");
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100%;
+}
+div.menu
+{
+	width:100%;
+ 	background-color:#860086;
+	text-align:center;
+}
+a.menu
+{
+ 	background-color:#860086;
+	font-family: 'Roboto', sans-serif;
+	color:white;
+	text-align:center;
+	text-decoration:none;
+	font-size:16pt;
+	margin:100px;
+}
+a:hover
+{
+	color:black;
+}
+div.site
+{
+	width:50%;
+ 	background-color:#E5E5E5;
+ 	margin:auto;
+	font-family: 'Roboto', sans-serif;
+	color:black;
+	box-shadow: 1px 1px 12px #555;
+	border-top:solid 10px #860086;
+	height:auto;
+	min-height:600px;
+	margin-top:100px;
+	min-width:800px;
+}
+p.bvn
+{
+	color:#860086;
+	font-weight:bold;
+	font-size:26pt;
+	text-align:center;
+}
+p.accueil
+{
+	color:#860086;
+	font-weight:bold;
+	text-align:center;
+}
+div.cadre
+{
+	border: solid 3px #860086;
+	background-color : #F6F5F5;
+	width:270px;
+	height:210px;
+	margin : 15px;
+ 	color:#860086;
+ 	text-align:center;
+ 	font-weight:bold;
+ 	float:left;
+}
+div.bas
+{
+	width:270px;
+	height:25px;
+	margin-top:180px;
+	position:absolute;
+}
+div.basgauche
+{
+	width:170px;
+	height:25px;
+	background-color : #E4E4E4;
+	float:left;
+	padding-top:5px;
+}
+div.basdroit
+{
+	width:100px;
+	height:25px;
+	background-color : #D7D9D8;
+	padding-top:5px;
+	float:left;
+}
+.lien2
+{
+	width:310px;
+	height:25px;
+	background-color:white;
+	color:#860086;
+ 	text-align:center;
+ 	font-weight:bold;
+}
+
+
+/*Magasins*/
+
+div.cadre_m
+{
+	border: solid 3px #860086;
+	background-color : #E5E5E5;
+	width:600px;
+ 	color:#860086;
+ 	text-align:center;
+ 	font-weight:bold;
+ 	margin:auto;
+}
+
+div.hautbas_m
+{
+	width:330px;
+	height:185px;
+	position:absolute;
+}
+
+div.haut_m
+{
+	width:330px;
+	height:63px;
+	background-color : #F7F7F7;
+	float:left;
+	margin-left:270px;
+	padding-top:30px;
+}
+
+div.bas_m
+{
+	width:330px;
+	height:62px;
+	background-color : #D7D9D8;
+	float:left;
+	margin-left:270px;
+	padding-top:30px;
+}
+div.image_m
+{
+	margin-right:350px;
+}
+
+
+/*Javascript*/
+.navigation
+{
+	background-color:white;
+	color:#860086;
+ 	text-align:center;
+ 	float:left;
+ 	width:100%;
+}
+.bouton
+{
+	background-color:white;
+	color:#860086;
+ 	text-align:center;
+ 	font-weight:bold;
+ 	cursor: pointer;
+ 	float:left;
+ 	margin-left:150px;
+}
+.bouton2
+{
+	background-color:white;
+	color:#860086;
+ 	text-align:center;
+ 	font-weight:bold;
+ 	float:left;
+}
+.clear
+{
+	clear:both;
+}
+
+
+
+/* New !!!!!!! */
+td
+{
+	padding : 4px;
+	border: black solid 1px;
+	text-align:center;
+}
+
+td:hover
+{
+ 	background-color:#9f9f9f;
+}
+
+.modif
+{
+	height: 32px;
+	widht:32px;
+}
+
+.supp
+{
+	height: 25px;
+	widht:25px;
+}
+
+table
+{
+	border-collapse : collapse;
+	background-color : #D9D9D8;
+	margin : auto;
+}
+
+.formajts
+{
+	margin-top:50px;
+}
+
+.formulaire
+{
+	background-color : #F7F7F7;
+	margin:auto;
+}
