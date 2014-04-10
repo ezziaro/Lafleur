@@ -46,7 +46,7 @@
 						echo '</div></div>';
 						echo '<div class="image_m">';
 						echo '<img src="img/boutiques/boutique_'.$donnees['image'].'.jpg" alt="modifier"/>';
-						echo '</div><div class="clear"></div>';
+						echo '</div></div><div class="clear">';
 					}
 				}
 				catch (Exception $erreur) 

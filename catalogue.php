@@ -17,7 +17,7 @@
 	<div class="site">
 		<p class="accueil">Nos fleurs :</p>
 		<br><br><br>
-			<script type="text/javascript" src="afficher_cacher_div.js"></script> 
+			<script type="text/javascript" src="js/afficher_cacher_div.js"></script> 
 
 <!--  Bouton navigation des plantes -->
 <div class="navigation">

@@ -16,20 +16,36 @@ div.menu
  	background-color:#860086;
 	text-align:center;
 }
+
 a.menu
 {
- 	background-color:#860086;
+ background-color:#860086;
 	font-family: 'Roboto', sans-serif;
 	color:white;
 	text-align:center;
 	text-decoration:none;
 	font-size:16pt;
-	margin:100px;
+	margin:3%;
 }
 a:hover
 {
 	color:black;
 }
+
+a.admin
+{
+	
+	 background-color:#860086;
+	font-family: 'Roboto', sans-serif;
+	color:white;
+	text-align:center;
+	text-decoration:none;
+	font-size:16pt;
+ float:left;
+ width: 170px;
+}
+
+
 div.site
 {
 	width:50%;
@@ -224,3 +240,103 @@ table
 	background-color : #F7F7F7;
 	margin:auto;
 }
+
+/* Connexion */
+
+#apDiv0
+{
+	position: absolute;
+	widht: 15%;
+	height: 22%;
+	margin-left : 44%;
+	margin-top: 18%;
+	background-color: #D9D9D8;
+	border : 2px #F7F7F7 solid;
+	box-shadow: 0px 0px 0px 1000px rgba(0, 0, 0, 0.5); 
+	text-align:center;
+	opacity:0;
+	}
+	
+.connexion
+{
+	color:#860086;
+font-family: 'Roboto', sans-serif;
+	text-align:center;
+	text-decoration:none;
+		font-weight:bold;
+	font-size:12pt;
+	height:12px;
+ }	
+ 
+ 
+ .connexion1
+{
+	color:#860086;
+font-family: 'Roboto', sans-serif;
+	text-align:center;
+	text-decoration:none;
+		font-weight:bold;
+	font-size:12pt;
+	height:12px;
+	background-color:white;
+	margin-top:-5px;
+ }	
+ 
+ 
+#apDiv1
+{
+ float:left;
+	cursor: pointer;
+	background-color:#860086;
+	font-family: 'Roboto', sans-serif;
+	color:white;
+	text-align:center;
+	text-decoration:none;
+	font-size:12pt;
+	margin-left:93.5%;
+		margin-top:-42px;
+	}
+	
+.pseudo
+{
+	float:left;
+	margin-top:-28px;
+	background-color:#860086;
+	font-family: 'Roboto', sans-serif;
+	color:white;
+	text-align:center;
+	text-decoration:none;
+	font-size:16pt;
+	margin-left:92%;
+	margin-top:-50px;
+	}
+	
+	.caddie
+	{
+	float:left;
+	margin-top:-28px;
+	background-color:#860086;
+	font-family: 'Roboto', sans-serif;
+	color:white;
+	text-align:center;
+	text-decoration:none;
+	font-size:16pt;
+	margin-left:2%;
+	}
+	
+	
+	.caddie2
+	{
+	float:left;
+	margin-top:-28px;
+	background-color:#860086;
+	font-family: 'Roboto', sans-serif;
+	color:white;
+	text-align:center;
+	text-decoration:none;
+	font-size:16pt;
+	margin-left:1%;
+	}
+ 
+ 
+ 
